@@ -6,10 +6,6 @@
 
 html {
   box-sizing: border-box;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
 
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -17,6 +13,10 @@ html {
   text-size-adjust: 100%;
 
   font-family: Georgia, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 .img-flex{
